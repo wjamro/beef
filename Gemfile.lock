@@ -1,0 +1,156 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.6.0)
+      public_suffix (>= 2.0.2, < 4.0)
+    ansi (1.5.0)
+    buftok (0.2.0)
+    chunky_png (1.3.11)
+    daemons (1.3.1)
+    data_objects (0.10.17)
+      addressable (~> 2.1)
+    dm-core (1.2.1)
+      addressable (~> 2.3)
+    dm-do-adapter (1.2.0)
+      data_objects (~> 0.10.6)
+      dm-core (~> 1.2.0)
+    dm-migrations (1.2.0)
+      dm-core (~> 1.2.0)
+    dm-sqlite-adapter (1.2.0)
+      dm-do-adapter (~> 1.2.0)
+      do_sqlite3 (~> 0.10.6)
+    do_sqlite3 (0.10.17)
+      data_objects (= 0.10.17)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    equalizer (0.0.11)
+    erubis (2.7.0)
+    espeak-ruby (1.0.4)
+    eventmachine (1.0.9.1)
+    execjs (2.7.0)
+    http (3.3.0)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.1.1)
+    http_parser.rb (0.6.0)
+    json (2.2.0)
+    maxmind-db (1.0.0)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    mime-types (3.2.2)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.0331)
+    mini_portile2 (2.4.0)
+    mojo_magick (0.5.6)
+    msfrpc-client (1.1.2)
+      msgpack (~> 1)
+    msgpack (1.2.10)
+    multipart-post (2.0.0)
+    mustermann (1.0.3)
+    naught (1.1.0)
+    netrc (0.11.0)
+    nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
+    parseconfig (1.0.8)
+    public_suffix (3.0.3)
+    qr4r (0.4.1)
+      mojo_magick
+      rqrcode
+    rack (2.0.7)
+    rack-protection (2.0.5)
+      rack
+    rainbow (3.0.0)
+    rake (12.3.2)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rexec (1.6.3)
+      rainbow
+    rqrcode (0.10.1)
+      chunky_png (~> 1.0)
+    rubydns (0.7.3)
+      eventmachine (~> 1.0.0)
+      rexec (~> 1.6.2)
+    rubyzip (1.2.2)
+    rushover (0.3.0)
+      json
+      rest-client
+    simple_oauth (0.3.1)
+    sinatra (2.0.5)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.5)
+      tilt (~> 2.0)
+    slack-notifier (2.3.2)
+    term-ansicolor (1.7.1)
+      tins (~> 1.0)
+    thin (1.7.2)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+    thread_safe (0.3.6)
+    tilt (2.0.9)
+    tins (1.20.2)
+    twitter (6.2.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.11)
+      http (~> 3.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+      memoizable (~> 0.4.0)
+      multipart-post (~> 2.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.3.0)
+    uglifier (4.1.20)
+      execjs (>= 0.3.0, < 3)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.6)
+    xmlrpc (0.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ansi
+  data_objects
+  dm-core
+  dm-migrations
+  dm-sqlite-adapter
+  em-websocket
+  erubis
+  espeak-ruby (>= 1.0.4)
+  eventmachine
+  execjs
+  json
+  maxmind-db
+  mime-types
+  msfrpc-client
+  nokogiri (>= 1.7)
+  parseconfig
+  qr4r
+  rack (~> 2.0)
+  rack-protection (~> 2.0)
+  rake
+  rubydns (~> 0.7.3)
+  rubyzip (>= 1.2.2)
+  rushover
+  sinatra (~> 2.0)
+  slack-notifier
+  term-ansicolor
+  thin
+  twitter (>= 5.0.0)
+  uglifier
+  xmlrpc
+
+BUNDLED WITH
+   1.17.3
