@@ -100,17 +100,17 @@ beef:
         #   gem "dm-mysql-adapter"
         # if you want to switch drivers from sqlite to postgres (or mysql).
         # Finally, run a 'bundle install' command and start BeEF.
-        driver: "sqlite"
+        driver: "postgres"
 
         # db_file is only used for sqlite
         db_file: "beef.db"
 
         # db connection information is only used for mysql/postgres
-        db_host: "localhost"
-        db_port: 3306
-        db_name: "beef"
-        db_user: "beef"
-        db_passwd: "beef"
+        db_host: "ec2-54-227-245-146.compute-1.amazonaws.com"
+        db_port: 5432
+        db_name: "d8fujeduipimpc"
+        db_user: "heyhpkhtpfmtps"
+        db_passwd: "d76f366ca205843e53a4765907497132781290a5f7817cec57730eff36586d76"
         db_encoding: "UTF-8"
 
     # Autorun Rule Engine

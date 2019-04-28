@@ -7,7 +7,6 @@ custom-config.yaml
 .gitignore
 .rvmrc
 .idea
-*.lock
 
 extensions/metasploit/msf-exploits.cache
 
